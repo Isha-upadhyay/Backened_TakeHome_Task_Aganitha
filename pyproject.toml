@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "backend-take-home"
+version = "0.1.0"
+description = "PubMed paper fetcher CLI"
+authors = ["Isha Upadhyay <isha962002sun@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [
+  { include = "get_papers" }
+]
+keywords = ["pubmed", "pharma", "cli", "bioinformatics"]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+requests = ">=2.32.4,<3.0.0"
+
+[tool.poetry.scripts]
+get-papers-list = "cli.main:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
