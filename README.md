@@ -114,5 +114,5 @@ This project is released under the MIT License.
 ## Maintainer
 
 **Isha Upadhyay**  
-Email: isha962002sun@gmail.com  
+Email: ishaupadhyay3542870@gmail.com  
 GitHub: [https://github.com/Isha-upadhyay](https://github.com/Isha-upadhyay)
