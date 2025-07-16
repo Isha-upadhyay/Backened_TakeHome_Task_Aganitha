@@ -3,6 +3,9 @@
 
 This project is a Python-based command-line tool that searches for research papers from the PubMed database using a user-provided query. It filters papers that include at least one non-academic author affiliated with a pharmaceutical or biotech company and exports the results into a structured CSV file.
 
+[![TestPyPI version](https://img.shields.io/badge/TestPyPI-pubmed--pharma--authors--cli-blue)](https://test.pypi.org/project/pubmed-pharma-authors-cli/)
+
+
 ---
 
 ## How the Code is Organized
@@ -105,14 +108,9 @@ Each row in the CSV corresponds to one paper that includes at least one author a
 
 ---
 
-## License
-
-This project is released under the MIT License.
-
----
 
 ## Maintainer
 
 **Isha Upadhyay**  
-Email: isha962002sun@gmail.com  
+Email: ishaupadhyay3542870@gmail.com  
 GitHub: [https://github.com/Isha-upadhyay](https://github.com/Isha-upadhyay)
