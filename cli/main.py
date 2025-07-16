@@ -18,7 +18,7 @@ def main():
 
     # Step 1: Get paper IDs
     ids = fetch_pubmed_ids(args.query)
-    print(f" Found {len(ids)} paper IDs.")
+    print(f" Found {len(ids)} paper IDs.") 
 
     # Step 2: Fetch paper details
     papers = fetch_pubmed_details(ids)
