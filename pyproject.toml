@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "backend-take-home"
-version = "0.1.0"
+name = "pubmed-pharma-authors-cli"
+version = "0.1.1"
 description = "PubMed paper fetcher CLI"
 authors = ["Isha Upadhyay <isha962002sun@gmail.com>"]
 readme = "README.md"
-license = "MIT"
+license = ""
 packages = [
   { include = "get_papers" }
 ]
